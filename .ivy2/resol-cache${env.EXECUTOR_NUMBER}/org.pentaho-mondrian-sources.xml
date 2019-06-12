@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.pentaho"
+		module="mondrian"
+		revision="4.7.0.21-185"
+		conf="sources"
+		confs="codegen, default, default-jdk1.4, sources, dist, test"
+		date="20190603102228"/>
+	<dependencies>
+		<module organisation="org.olap4j" name="olap4j">
+			<revision name="1.2.0" status="release" pubdate="20160323093844" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="http://github.com/olap4j/olap4j" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="0">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3542" time="0" location="C:\Users\S0111\.ivy2\cache\org.olap4j\olap4j\ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/org/olap4j/olap4j/1.2.0/olap4j-1.2.0.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="sources" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="olap4j" type="source" ext="jar" extra-classifier="sources" status="no" details="" size="8294" time="0" location="C:\Users\S0111\.ivy2\cache\org.olap4j\olap4j\sources\olap4j-1.2.0-sources.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/org/olap4j/olap4j/1.2.0/olap4j-1.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

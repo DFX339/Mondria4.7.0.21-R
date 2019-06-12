@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.pentaho"
+		module="mondrian"
+		revision="4.7.0.21-185"
+		conf="default"
+		confs="codegen, default, default-jdk1.4, sources, dist, test"
+		date="20190603102228"/>
+	<dependencies>
+		<module organisation="xerces" name="xercesImpl">
+			<revision name="2.9.1" status="release" pubdate="20140805000925" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="http://xerces.apache.org/xerces2-j" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="28">
+				<metadata-artifact status="no" details="" size="3073" time="0" location="C:\Users\S0111\.ivy2\cache\xerces\xercesImpl\ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.pom"/>
+				<caller organisation="xerces" name="xerces" conf="compile, runtime, master" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.2"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="xercesImpl" type="jar" ext="jar" status="no" details="" size="1229125" time="0" location="C:\Users\S0111\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.9.1.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.0.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime, master" position="-1">
+				<evicted-by rev="2.9.1"/>
+				<caller organisation="xerces" name="xerces" conf="compile, runtime, master" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xalan" name="xalan">
+			<revision name="2.6.0" status="release" pubdate="20140805000501" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="27">
+				<metadata-artifact status="no" details="" size="2478" time="0" location="C:\Users\S0111\.ivy2\cache\xalan\xalan\ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/xalan/xalan/2.6.0/xalan-2.6.0.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="xalan" type="jar" ext="jar" status="no" details="" size="3149655" time="0" location="C:\Users\S0111\.ivy2\cache\xalan\xalan\jars\xalan-2.6.0.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/xalan/xalan/2.6.0/xalan-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.olap4j" name="olap4j-xmlaserver">
+			<revision name="1.2.0" status="release" pubdate="20190123134855" resolver="local-mvn" artresolver="local-mvn" homepage="http://github.com/olap4j/olap4j-xmlaserver" downloaded="false" searched="true" default="false" conf="default, compile, runtime, master" position="26">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3278" time="0" location="C:\Users\S0111\.ivy2\cache\org.olap4j\olap4j-xmlaserver\ivy-1.2.0.xml" searched="true" origin-is-local="false" origin-location="file:/D:/app/maven/repository/org/olap4j/olap4j-xmlaserver/1.2.0/olap4j-xmlaserver-1.2.0.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="olap4j-xmlaserver" type="jar" ext="jar" status="no" details="" size="278490" time="0" location="C:\Users\S0111\.ivy2\cache\org.olap4j\olap4j-xmlaserver\jars\olap4j-xmlaserver-1.2.0.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/org/olap4j/olap4j-xmlaserver/1.2.0/olap4j-xmlaserver-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.olap4j" name="olap4j">
+			<revision name="1.2.0" status="release" pubdate="20160323093844" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="http://github.com/olap4j/olap4j" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), runtime, compile(*), master" position="25">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3542" time="0" location="C:\Users\S0111\.ivy2\cache\org.olap4j\olap4j\ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/org/olap4j/olap4j/1.2.0/olap4j-1.2.0.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="4.7.0.21-185"/>
+				<caller organisation="org.olap4j" name="olap4j-xmlaserver" conf="default, compile, runtime, master" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="olap4j" type="jar" ext="jar" status="no" details="" size="330963" time="0" location="C:\Users\S0111\.ivy2\cache\org.olap4j\olap4j\jars\olap4j-1.2.0.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/org/olap4j/olap4j/1.2.0/olap4j-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.14" status="release" pubdate="20140805000210" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="http://logging.apache.org/log4j/docs/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), runtime, compile(*), master" position="24">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2471" time="0" location="C:\Users\S0111\.ivy2\cache\log4j\log4j\ivy-1.2.14.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/log4j/log4j/1.2.14/log4j-1.2.14.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="1.2.14" rev-constraint-default="1.2.14" rev-constraint-dynamic="1.2.14" callerrev="4.7.0.21-185"/>
+				<caller organisation="org.olap4j" name="olap4j-xmlaserver" conf="default, compile, runtime, master" rev="1.2.14" rev-constraint-default="1.2.14" rev-constraint-dynamic="1.2.14" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="log4j" type="jar" ext="jar" status="no" details="" size="367444" time="0" location="C:\Users\S0111\.ivy2\cache\log4j\log4j\jars\log4j-1.2.14.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/log4j/log4j/1.2.14/log4j-1.2.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.servlet" name="jsp-api">
+			<revision name="2.0" status="release" pubdate="20140805000914" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="22">
+				<metadata-artifact status="no" details="" size="2475" time="0" location="C:\Users\S0111\.ivy2\cache\javax.servlet\jsp-api\ivy-2.0.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/javax/servlet/jsp-api/2.0/jsp-api-2.0.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="2.0" rev-constraint-default="2.0" rev-constraint-dynamic="2.0" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="jsp-api" type="jar" ext="jar" status="no" details="" size="50493" time="0" location="C:\Users\S0111\.ivy2\cache\javax.servlet\jsp-api\jars\jsp-api-2.0.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/javax/servlet/jsp-api/2.0/jsp-api-2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.servlet" name="servlet-api">
+			<revision name="2.4" status="release" pubdate="20140805000913" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), runtime, compile(*), master" position="23">
+				<metadata-artifact status="no" details="" size="2316" time="0" location="C:\Users\S0111\.ivy2\cache\javax.servlet\servlet-api\ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/javax/servlet/servlet-api/2.4/servlet-api-2.4.pom"/>
+				<caller organisation="javax.servlet" name="jsp-api" conf="default, compile, runtime, master" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="2.0"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="servlet-api" type="jar" ext="jar" status="no" details="" size="97693" time="0" location="C:\Users\S0111\.ivy2\cache\javax.servlet\servlet-api\jars\servlet-api-2.4.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="sun" name="jlfgr">
+			<revision name="1.0" status="release" pubdate="20080718040657" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="21">
+				<metadata-artifact status="no" details="" size="2326" time="0" location="C:\Users\S0111\.ivy2\cache\sun\jlfgr\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/sun/jlfgr/1.0/jlfgr-1.0.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="jlfgr" type="jar" ext="jar" status="no" details="" size="114580" time="0" location="C:\Users\S0111\.ivy2\cache\sun\jlfgr\jars\jlfgr-1.0.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/sun/jlfgr/1.0/jlfgr-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="eigenbase" name="eigenbase-resgen">
+			<revision name="1.3.2" status="release" pubdate="20131205230447" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="20">
+				<metadata-artifact status="no" details="" size="2278" time="0" location="C:\Users\S0111\.ivy2\cache\eigenbase\eigenbase-resgen\ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/eigenbase/eigenbase-resgen/1.3.2/eigenbase-resgen-1.3.2.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="eigenbase-resgen" type="jar" ext="jar" status="no" details="" size="65303" time="0" location="C:\Users\S0111\.ivy2\cache\eigenbase\eigenbase-resgen\jars\eigenbase-resgen-1.3.2.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/eigenbase/eigenbase-resgen/1.3.2/eigenbase-resgen-1.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="eigenbase" name="eigenbase-properties">
+			<revision name="1.1.3" status="release" pubdate="20131205230346" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="19">
+				<metadata-artifact status="no" details="" size="2286" time="0" location="C:\Users\S0111\.ivy2\cache\eigenbase\eigenbase-properties\ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/eigenbase/eigenbase-properties/1.1.3/eigenbase-properties-1.1.3.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="eigenbase-properties" type="jar" ext="jar" status="no" details="" size="18191" time="0" location="C:\Users\S0111\.ivy2\cache\eigenbase\eigenbase-properties\jars\eigenbase-properties-1.1.3.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/eigenbase/eigenbase-properties/1.1.3/eigenbase-properties-1.1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="eigenbase" name="eigenbase-xom">
+			<revision name="1.3.2" status="release" pubdate="20131205230506" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="18">
+				<metadata-artifact status="no" details="" size="2272" time="0" location="C:\Users\S0111\.ivy2\cache\eigenbase\eigenbase-xom\ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/eigenbase/eigenbase-xom/1.3.2/eigenbase-xom-1.3.2.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="eigenbase-xom" type="jar" ext="jar" status="no" details="" size="104141" time="0" location="C:\Users\S0111\.ivy2\cache\eigenbase\eigenbase-xom\jars\eigenbase-xom-1.3.2.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/eigenbase/eigenbase-xom/1.3.2/eigenbase-xom-1.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.validation" name="validation-api">
+			<revision name="1.0.0.GA" status="release" pubdate="20140805000910" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="17">
+				<license name="Apache License, Version 2.0" url="license.txt"/>
+				<metadata-artifact status="no" details="" size="2551" time="0" location="C:\Users\S0111\.ivy2\cache\javax.validation\validation-api\ivy-1.0.0.GA.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="1.0.0.GA" rev-constraint-default="1.0.0.GA" rev-constraint-dynamic="1.0.0.GA" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="validation-api" type="jar" ext="jar" status="no" details="" size="47433" time="0" location="C:\Users\S0111\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.0.0.GA.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dom4j" name="dom4j">
+			<revision name="1.6.1" status="release" pubdate="20140805000211" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="http://dom4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="16">
+				<metadata-artifact status="no" details="" size="3786" time="0" location="C:\Users\S0111\.ivy2\cache\dom4j\dom4j\ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="dom4j" type="jar" ext="jar" status="no" details="" size="313898" time="0" location="C:\Users\S0111\.ivy2\cache\dom4j\dom4j\jars\dom4j-1.6.1.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.java.dev.javacc" name="javacc">
+			<revision name="5.0" status="release" pubdate="20140805000207" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="https://javacc.dev.java.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="15">
+				<license name="Berkeley Software Distribution (BSD) License" url="http://www.opensource.org/licenses/bsd-license.html"/>
+				<metadata-artifact status="no" details="" size="2526" time="0" location="C:\Users\S0111\.ivy2\cache\net.java.dev.javacc\javacc\ivy-5.0.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/net/java/dev/javacc/javacc/5.0/javacc-5.0.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="5.0" rev-constraint-default="5.0" rev-constraint-dynamic="5.0" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="javacc" type="jar" ext="jar" status="no" details="" size="298569" time="0" location="C:\Users\S0111\.ivy2\cache\net.java.dev.javacc\javacc\jars\javacc-5.0.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/net/java/dev/javacc/javacc/5.0/javacc-5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-vfs2">
+			<revision name="2.0" status="release" pubdate="20140805000103" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="9">
+				<metadata-artifact status="no" details="" size="12602" time="0" location="C:\Users\S0111\.ivy2\cache\org.apache.commons\commons-vfs2\ivy-2.0.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/org/apache/commons/commons-vfs2/2.0/commons-vfs2-2.0.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="2.0" rev-constraint-default="2.0" rev-constraint-dynamic="2.0" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="commons-vfs2" type="jar" ext="jar" status="no" details="" size="415578" time="0" location="C:\Users\S0111\.ivy2\cache\org.apache.commons\commons-vfs2\jars\commons-vfs2-2.0.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/org/apache/commons/commons-vfs2/2.0/commons-vfs2-2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven.scm" name="maven-scm-provider-svnexe">
+			<revision name="1.4" status="release" pubdate="20140805000036" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="12">
+				<metadata-artifact status="no" details="" size="13286" time="0" location="C:\Users\S0111\.ivy2\cache\org.apache.maven.scm\maven-scm-provider-svnexe\ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/org/apache/maven/scm/maven-scm-provider-svnexe/1.4/maven-scm-provider-svnexe-1.4.pom"/>
+				<caller organisation="org.apache.commons" name="commons-vfs2" conf="default, compile, runtime, master" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="2.0"/>
+				<artifacts>
+					<artifact name="maven-scm-provider-svnexe" type="jar" ext="jar" status="no" details="" size="69858" time="0" location="C:\Users\S0111\.ivy2\cache\org.apache.maven.scm\maven-scm-provider-svnexe\jars\maven-scm-provider-svnexe-1.4.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/org/apache/maven/scm/maven-scm-provider-svnexe/1.4/maven-scm-provider-svnexe-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="regexp" name="regexp">
+			<revision name="1.3" status="release" pubdate="20140804235500" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="14">
+				<metadata-artifact status="no" details="" size="2294" time="0" location="C:\Users\S0111\.ivy2\cache\regexp\regexp\ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/regexp/regexp/1.3/regexp-1.3.pom"/>
+				<caller organisation="org.apache.maven.scm" name="maven-scm-provider-svnexe" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.4"/>
+				<artifacts>
+					<artifact name="regexp" type="jar" ext="jar" status="no" details="" size="25429" time="0" location="C:\Users\S0111\.ivy2\cache\regexp\regexp\jars\regexp-1.3.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/regexp/regexp/1.3/regexp-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven.scm" name="maven-scm-provider-svn-commons">
+			<revision name="1.4" status="release" pubdate="20140805000036" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="13">
+				<metadata-artifact status="no" details="" size="12883" time="0" location="C:\Users\S0111\.ivy2\cache\org.apache.maven.scm\maven-scm-provider-svn-commons\ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/org/apache/maven/scm/maven-scm-provider-svn-commons/1.4/maven-scm-provider-svn-commons-1.4.pom"/>
+				<caller organisation="org.apache.maven.scm" name="maven-scm-provider-svnexe" conf="compile, runtime" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="1.4"/>
+				<artifacts>
+					<artifact name="maven-scm-provider-svn-commons" type="jar" ext="jar" status="no" details="" size="40066" time="0" location="C:\Users\S0111\.ivy2\cache\org.apache.maven.scm\maven-scm-provider-svn-commons\jars\maven-scm-provider-svn-commons-1.4.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/org/apache/maven/scm/maven-scm-provider-svn-commons/1.4/maven-scm-provider-svn-commons-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven.scm" name="maven-scm-api">
+			<revision name="1.4" status="release" pubdate="20140805000037" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="10">
+				<metadata-artifact status="no" details="" size="10953" time="0" location="C:\Users\S0111\.ivy2\cache\org.apache.maven.scm\maven-scm-api\ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/org/apache/maven/scm/maven-scm-api/1.4/maven-scm-api-1.4.pom"/>
+				<caller organisation="org.apache.maven.scm" name="maven-scm-provider-svn-commons" conf="compile, runtime" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="1.4"/>
+				<caller organisation="org.apache.maven.scm" name="maven-scm-provider-svnexe" conf="compile, runtime" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="1.4"/>
+				<caller organisation="org.apache.commons" name="commons-vfs2" conf="default, compile, runtime, master" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="2.0"/>
+				<artifacts>
+					<artifact name="maven-scm-api" type="jar" ext="jar" status="no" details="" size="94421" time="0" location="C:\Users\S0111\.ivy2\cache\org.apache.maven.scm\maven-scm-api\jars\maven-scm-api-1.4.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/org/apache/maven/scm/maven-scm-api/1.4/maven-scm-api-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.plexus" name="plexus-utils">
+			<revision name="1.5.6" status="release" pubdate="20140804235739" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="http://plexus.codehaus.org/plexus-utils" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="11">
+				<metadata-artifact status="no" details="" size="3233" time="0" location="C:\Users\S0111\.ivy2\cache\org.codehaus.plexus\plexus-utils\ivy-1.5.6.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.pom"/>
+				<caller organisation="org.apache.maven.scm" name="maven-scm-provider-svn-commons" conf="compile, runtime" rev="1.5.6" rev-constraint-default="1.5.6" rev-constraint-dynamic="1.5.6" callerrev="1.4"/>
+				<caller organisation="org.apache.maven.scm" name="maven-scm-provider-svnexe" conf="compile, runtime" rev="1.5.6" rev-constraint-default="1.5.6" rev-constraint-dynamic="1.5.6" callerrev="1.4"/>
+				<caller organisation="org.apache.maven.scm" name="maven-scm-api" conf="compile, runtime" rev="1.5.6" rev-constraint-default="1.5.6" rev-constraint-dynamic="1.5.6" callerrev="1.4"/>
+				<artifacts>
+					<artifact name="plexus-utils" type="jar" ext="jar" status="no" details="" size="250546" time="0" location="C:\Users\S0111\.ivy2\cache\org.codehaus.plexus\plexus-utils\jars\plexus-utils-1.5.6.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-vfs" name="commons-vfs">
+			<revision name="1.0" status="release" pubdate="20140805000211" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="http://jakarta.apache.org/commons/vfs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="8">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3677" time="0" location="C:\Users\S0111\.ivy2\cache\commons-vfs\commons-vfs\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/commons-vfs/commons-vfs/1.0/commons-vfs-1.0.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="commons-vfs" type="jar" ext="jar" status="no" details="" size="362717" time="0" location="C:\Users\S0111\.ivy2\cache\commons-vfs\commons-vfs\jars\commons-vfs-1.0.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/commons-vfs/commons-vfs/1.0/commons-vfs-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-math" name="commons-math">
+			<revision name="1.1" status="release" pubdate="20140805000449" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="http://jakarta.apache.org/commons/math/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="7">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2966" time="0" location="C:\Users\S0111\.ivy2\cache\commons-math\commons-math\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/commons-math/commons-math/1.1/commons-math-1.1.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="commons-math" type="jar" ext="jar" status="no" details="" size="174535" time="0" location="C:\Users\S0111\.ivy2\cache\commons-math\commons-math\jars\commons-math-1.1.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/commons-math/commons-math/1.1/commons-math-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.1" status="release" pubdate="20140805000909" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="http://commons.apache.org/logging" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), runtime, compile(*), master" position="6">
+				<metadata-artifact status="no" details="" size="4182" time="0" location="C:\Users\S0111\.ivy2\cache\commons-logging\commons-logging\ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom"/>
+				<caller organisation="commons-vfs" name="commons-vfs" conf="default, compile, runtime, master" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.0"/>
+				<caller organisation="org.apache.commons" name="commons-vfs2" conf="default, compile, runtime, master" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.0"/>
+				<caller organisation="commons-math" name="commons-math" conf="default, compile, runtime, master" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.1"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="60686" time="0" location="C:\Users\S0111\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.0.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.1.1"/>
+				<caller organisation="commons-vfs" name="commons-vfs" conf="default, compile, runtime, master" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.0.3" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), master, default" position="-1">
+				<evicted-by rev="1.1.1"/>
+				<caller organisation="commons-math" name="commons-math" conf="default, compile, runtime, master" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.1"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="4.7.0.21-185"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="1.4" status="release" pubdate="20140805000213" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="5">
+				<metadata-artifact status="no" details="" size="3518" time="0" location="C:\Users\S0111\.ivy2\cache\commons-io\commons-io\ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/commons-io/commons-io/1.4/commons-io-1.4.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="109043" time="0" location="C:\Users\S0111\.ivy2\cache\commons-io\commons-io\jars\commons-io-1.4.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/commons-io/commons-io/1.4/commons-io-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.4" status="release" pubdate="20140805000918" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="4">
+				<metadata-artifact status="no" details="" size="4969" time="0" location="C:\Users\S0111\.ivy2\cache\commons-lang\commons-lang\ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/commons-lang/commons-lang/2.4/commons-lang-2.4.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="commons-lang" type="jar" ext="jar" status="no" details="" size="261809" time="0" location="C:\Users\S0111\.ivy2\cache\commons-lang\commons-lang\jars\commons-lang-2.4.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/commons-lang/commons-lang/2.4/commons-lang-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-dbcp" name="commons-dbcp">
+			<revision name="1.2.1" status="release" pubdate="20140805000922" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="http://jakarta.apache.org/commons/dbcp/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), runtime, compile(*), master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3457" time="0" location="C:\Users\S0111\.ivy2\cache\commons-dbcp\commons-dbcp\ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/commons-dbcp/commons-dbcp/1.2.1/commons-dbcp-1.2.1.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="4.7.0.21-185"/>
+				<caller organisation="org.olap4j" name="olap4j-xmlaserver" conf="default, compile, runtime, master" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="commons-dbcp" type="jar" ext="jar" status="no" details="" size="107631" time="0" location="C:\Users\S0111\.ivy2\cache\commons-dbcp\commons-dbcp\jars\commons-dbcp-1.2.1.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/commons-dbcp/commons-dbcp/1.2.1/commons-dbcp-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-pool" name="commons-pool">
+			<revision name="1.2" status="release" pubdate="20140805000454" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="http://jakarta.apache.org/commons/pool/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), runtime, compile(*), master" position="2">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3201" time="0" location="C:\Users\S0111\.ivy2\cache\commons-pool\commons-pool\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/commons-pool/commons-pool/1.2/commons-pool-1.2.pom"/>
+				<caller organisation="commons-dbcp" name="commons-dbcp" conf="default, compile, runtime, master" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.2.1"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="commons-pool" type="jar" ext="jar" status="no" details="" size="42492" time="0" location="C:\Users\S0111\.ivy2\cache\commons-pool\commons-pool\jars\commons-pool-1.2.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/commons-pool/commons-pool/1.2/commons-pool-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xerces" name="xerces">
+			<revision name="2.0.2" status="release" pubdate="20140805000925" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="3">
+				<metadata-artifact status="no" details="" size="2409" time="0" location="C:\Users\S0111\.ivy2\cache\xerces\xerces\ivy-2.0.2.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/xerces/xerces/2.0.2/xerces-2.0.2.pom"/>
+				<caller organisation="commons-dbcp" name="commons-dbcp" conf="default, compile, runtime, master" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="1.2.1"/>
+				<caller organisation="commons-pool" name="commons-pool" conf="default, compile, runtime, master" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="1.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.2" status="release" pubdate="20151113071126" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master, master(*), runtime(*), compile(*)" position="0">
+				<metadata-artifact status="no" details="" size="11574" time="0" location="C:\Users\S0111\.ivy2\cache\commons-collections\commons-collections\ivy-3.2.2.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.pom"/>
+				<caller organisation="commons-dbcp" name="commons-dbcp" conf="default, compile, runtime, master" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="1.2.1"/>
+				<caller organisation="commons-pool" name="commons-pool" conf="default, compile, runtime, master" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="1.2"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="588337" time="0" location="C:\Users\S0111\.ivy2\cache\commons-collections\commons-collections\jars\commons-collections-3.2.2.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), master, default" position="-1">
+				<evicted-by rev="3.2.2"/>
+				<caller organisation="commons-dbcp" name="commons-dbcp" conf="default, compile, runtime, master" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="1.2.1"/>
+				<caller organisation="commons-pool" name="commons-pool" conf="default, compile, runtime, master" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="1.2"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="4.7.0.21-185"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

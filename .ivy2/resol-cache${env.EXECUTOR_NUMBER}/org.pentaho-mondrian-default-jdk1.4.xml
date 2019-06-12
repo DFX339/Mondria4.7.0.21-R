@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.pentaho"
+		module="mondrian"
+		revision="4.7.0.21-185"
+		conf="default-jdk1.4"
+		confs="codegen, default, default-jdk1.4, sources, dist, test"
+		date="20190603102228"/>
+	<dependencies>
+		<module organisation="retroweaver" name="retroweaver-rt">
+			<revision name="2.0.7" status="release" pubdate="20090115082121" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="6">
+				<metadata-artifact status="no" details="" size="2264" time="0" location="C:\Users\S0111\.ivy2\cache\retroweaver\retroweaver-rt\ivy-2.0.7.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/retroweaver/retroweaver-rt/2.0.7/retroweaver-rt-2.0.7.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default-jdk1.4" rev="2.0.7" rev-constraint-default="2.0.7" rev-constraint-dynamic="2.0.7" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="retroweaver-rt" type="jar" ext="jar" status="no" details="" size="181671" time="0" location="C:\Users\S0111\.ivy2\cache\retroweaver\retroweaver-rt\jars\retroweaver-rt-2.0.7.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/retroweaver/retroweaver-rt/2.0.7/retroweaver-rt-2.0.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="retroweaver" name="retroweaver">
+			<revision name="2.0.7" status="release" pubdate="20090115081902" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="5">
+				<metadata-artifact status="no" details="" size="2258" time="0" location="C:\Users\S0111\.ivy2\cache\retroweaver\retroweaver\ivy-2.0.7.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/retroweaver/retroweaver/2.0.7/retroweaver-2.0.7.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default-jdk1.4" rev="2.0.7" rev-constraint-default="2.0.7" rev-constraint-dynamic="2.0.7" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="retroweaver" type="jar" ext="jar" status="no" details="" size="92185" time="0" location="C:\Users\S0111\.ivy2\cache\retroweaver\retroweaver\jars\retroweaver-2.0.7.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/retroweaver/retroweaver/2.0.7/retroweaver-2.0.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="asm" name="asm-util">
+			<revision name="3.1" status="release" pubdate="20140805000920" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="4">
+				<metadata-artifact status="no" details="" size="3415" time="0" location="C:\Users\S0111\.ivy2\cache\asm\asm-util\ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/asm/asm-util/3.1/asm-util-3.1.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default-jdk1.4" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="asm-util" type="jar" ext="jar" status="no" details="" size="34444" time="0" location="C:\Users\S0111\.ivy2\cache\asm\asm-util\jars\asm-util-3.1.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/asm/asm-util/3.1/asm-util-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="asm" name="asm-commons">
+			<revision name="3.1" status="release" pubdate="20140805000920" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="2">
+				<metadata-artifact status="no" details="" size="3517" time="0" location="C:\Users\S0111\.ivy2\cache\asm\asm-commons\ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/asm/asm-commons/3.1/asm-commons-3.1.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default-jdk1.4" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="asm-commons" type="jar" ext="jar" status="no" details="" size="32693" time="0" location="C:\Users\S0111\.ivy2\cache\asm\asm-commons\jars\asm-commons-3.1.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/asm/asm-commons/3.1/asm-commons-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="asm" name="asm-tree">
+			<revision name="3.1" status="release" pubdate="20140805000920" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="3">
+				<metadata-artifact status="no" details="" size="3503" time="0" location="C:\Users\S0111\.ivy2\cache\asm\asm-tree\ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/asm/asm-tree/3.1/asm-tree-3.1.pom"/>
+				<caller organisation="asm" name="asm-commons" conf="default, compile, runtime, master" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="3.1"/>
+				<caller organisation="asm" name="asm-util" conf="default, compile, runtime, master" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="3.1"/>
+				<artifacts>
+					<artifact name="asm-tree" type="jar" ext="jar" status="no" details="" size="21879" time="0" location="C:\Users\S0111\.ivy2\cache\asm\asm-tree\jars\asm-tree-3.1.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/asm/asm-tree/3.1/asm-tree-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="asm" name="asm">
+			<revision name="3.1" status="release" pubdate="20140805000920" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), runtime, compile(*), master" position="1">
+				<metadata-artifact status="no" details="" size="2920" time="0" location="C:\Users\S0111\.ivy2\cache\asm\asm\ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/asm/asm/3.1/asm-3.1.pom"/>
+				<caller organisation="asm" name="asm-tree" conf="compile, runtime" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="3.1"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default-jdk1.4" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="no" details="" size="43033" time="0" location="C:\Users\S0111\.ivy2\cache\asm\asm\jars\asm-3.1.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/asm/asm/3.1/asm-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="backport-util-concurrent" name="backport-util-concurrent">
+			<revision name="3.1" status="release" pubdate="20140805000458" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="http://backport-jsr166.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="0">
+				<license name="Public Domain" url="http://creativecommons.org/licenses/publicdomain"/>
+				<metadata-artifact status="no" details="" size="2668" time="0" location="C:\Users\S0111\.ivy2\cache\backport-util-concurrent\backport-util-concurrent\ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="default-jdk1.4" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="backport-util-concurrent" type="jar" ext="jar" status="no" details="" size="331716" time="0" location="C:\Users\S0111\.ivy2\cache\backport-util-concurrent\backport-util-concurrent\jars\backport-util-concurrent-3.1.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

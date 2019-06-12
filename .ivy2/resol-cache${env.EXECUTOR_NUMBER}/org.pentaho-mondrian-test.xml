@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.pentaho"
+		module="mondrian"
+		revision="4.7.0.21-185"
+		conf="test"
+		confs="test"
+		date="20190603102234"/>
+	<dependencies>
+		<module organisation="pentaho" name="mondrian-data-foodmart-json">
+			<revision name="0.1" status="release" pubdate="20160526202752" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="6">
+				<metadata-artifact status="no" details="" size="2296" time="0" location="C:\Users\S0111\.ivy2\cache\pentaho\mondrian-data-foodmart-json\ivy-0.1.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/pentaho/mondrian-data-foodmart-json/0.1/mondrian-data-foodmart-json-0.1.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="test" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="mondrian-data-foodmart-json" type="jar" ext="jar" status="no" details="" size="5281262" time="0" location="C:\Users\S0111\.ivy2\cache\pentaho\mondrian-data-foodmart-json\jars\mondrian-data-foodmart-json-0.1.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/pentaho/mondrian-data-foodmart-json/0.1/mondrian-data-foodmart-json-0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="pentaho" name="mondrian-data-foodmart">
+			<revision name="1.0.0" status="release" pubdate="20160528015641" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="5">
+				<metadata-artifact status="no" details="" size="2291" time="0" location="C:\Users\S0111\.ivy2\cache\pentaho\mondrian-data-foodmart\ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/pentaho/mondrian-data-foodmart/1.0.0/mondrian-data-foodmart-1.0.0.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="test" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="mondrian-data-foodmart" type="jar" ext="jar" status="no" details="" size="4825800" time="0" location="C:\Users\S0111\.ivy2\cache\pentaho\mondrian-data-foodmart\jars\mondrian-data-foodmart-1.0.0.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/pentaho/mondrian-data-foodmart/1.0.0/mondrian-data-foodmart-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xmlunit" name="xmlunit">
+			<revision name="1.3" status="release" pubdate="20140805000508" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="http://xmlunit.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="4">
+				<license name="BSD License" url="http://xmlunit.svn.sourceforge.net/viewvc/*checkout*/xmlunit/trunk/xmlunit/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\S0111\.ivy2\cache\xmlunit\xmlunit\ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/xmlunit/xmlunit/1.3/xmlunit-1.3.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="test" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="xmlunit" type="jar" ext="jar" status="no" details="" size="96751" time="0" location="C:\Users\S0111\.ivy2\cache\xmlunit\xmlunit\jars\xmlunit-1.3.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/xmlunit/xmlunit/1.3/xmlunit-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mockito" name="mockito-all">
+			<revision name="1.8.5" status="release" pubdate="20140804235822" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="http://www.mockito.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="3">
+				<license name="The MIT License" url="http://code.google.com/p/mockito/wiki/License"/>
+				<metadata-artifact status="no" details="" size="2477" time="0" location="C:\Users\S0111\.ivy2\cache\org.mockito\mockito-all\ivy-1.8.5.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/org/mockito/mockito-all/1.8.5/mockito-all-1.8.5.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="test" rev="1.8.5" rev-constraint-default="1.8.5" rev-constraint-dynamic="1.8.5" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="mockito-all" type="jar" ext="jar" status="no" details="" size="1419869" time="0" location="C:\Users\S0111\.ivy2\cache\org.mockito\mockito-all\jars\mockito-all-1.8.5.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/org/mockito/mockito-all/1.8.5/mockito-all-1.8.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="3.8.1" status="release" pubdate="20140805000502" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="2">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="no" details="" size="2576" time="0" location="C:\Users\S0111\.ivy2\cache\junit\junit\ivy-3.8.1.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/junit/junit/3.8.1/junit-3.8.1.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="test" rev="3.8.1" rev-constraint-default="3.8.1" rev-constraint-dynamic="3.8.1" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="no" details="" size="121070" time="0" location="C:\Users\S0111\.ivy2\cache\junit\junit\jars\junit-3.8.1.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/junit/junit/3.8.1/junit-3.8.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.olap4j" name="olap4j-xmla">
+			<revision name="1.2.0" status="release" pubdate="20190123133556" resolver="local-mvn" artresolver="local-mvn" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, master" position="1">
+				<metadata-artifact status="no" details="" size="2219" time="0" location="C:\Users\S0111\.ivy2\cache\org.olap4j\olap4j-xmla\ivy-1.2.0.xml" searched="true" origin-is-local="false" origin-location="file:/D:/app/maven/repository/org/olap4j/olap4j-xmla/1.2.0/olap4j-xmla-1.2.0.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="test" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="olap4j-xmla" type="jar" ext="jar" status="no" details="" size="213690" time="0" location="C:\Users\S0111\.ivy2\cache\org.olap4j\olap4j-xmla\jars\olap4j-xmla-1.2.0.jar">
+						<origin-location is-local="false" location="file:/D:/app/maven/repository/org/olap4j/olap4j-xmla/1.2.0/olap4j-xmla-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.olap4j" name="olap4j-tck">
+			<revision name="1.2.0" status="release" pubdate="20190603102234" resolver="local" artresolver="local" downloaded="false" searched="true" default="true" conf="default" position="0">
+				<metadata-artifact status="no" details="" size="0" time="0" location="C:\Users\S0111\.ivy2\cache\org.olap4j\olap4j-tck\ivy-1.2.0.xml" searched="true"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="test" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="olap4j-tck" type="jar" ext="jar" status="no" details="" size="148883" time="0" location="C:\Users\S0111\.ivy2\cache\org.olap4j\olap4j-tck\jars\olap4j-tck-1.2.0.jar">
+						<origin-location is-local="true" location="file:/C:/Users/Administrator/.m2/repository/org/olap4j/olap4j-tck/1.2.0/olap4j-tck-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

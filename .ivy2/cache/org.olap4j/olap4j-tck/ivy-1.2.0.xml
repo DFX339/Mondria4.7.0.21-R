@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="org.olap4j"
+		module="olap4j-tck"
+		revision="1.2.0"
+		status="release"
+		publication="20190603102234"
+		default="true"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+		<artifact name="olap4j-tck" type="jar" ext="jar" conf="default"/>
+	</publications>
+</ivy-module>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.pentaho"
+		module="mondrian"
+		revision="4.7.0.21-185"
+		conf="codegen"
+		confs="codegen, default, default-jdk1.4, sources, dist, test"
+		date="20190603102228"/>
+	<dependencies>
+		<module organisation="biz.aQute" name="bnd">
+			<revision name="2.3.0" status="release" pubdate="20131206011237" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="2">
+				<metadata-artifact status="no" details="" size="2252" time="0" location="C:\Users\S0111\.ivy2\cache\biz.aQute\bnd\ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/biz/aQute/bnd/2.3.0/bnd-2.3.0.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="codegen" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="bnd" type="jar" ext="jar" status="no" details="" size="2034464" time="0" location="C:\Users\S0111\.ivy2\cache\biz.aQute\bnd\jars\bnd-2.3.0.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/biz/aQute/bnd/2.3.0/bnd-2.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.java.openjdk" name="ctsym-java6">
+			<revision name="1.6.0_24" status="release" pubdate="20130302022543" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="1">
+				<metadata-artifact status="no" details="" size="2278" time="0" location="C:\Users\S0111\.ivy2\cache\net.java.openjdk\ctsym-java6\ivy-1.6.0_24.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/net/java/openjdk/ctsym-java6/1.6.0_24/ctsym-java6-1.6.0_24.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="codegen" rev="1.6.0_24" rev-constraint-default="1.6.0_24" rev-constraint-dynamic="1.6.0_24" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="ctsym-java6" type="jar" ext="jar" status="no" details="" size="8301938" time="0" location="C:\Users\S0111\.ivy2\cache\net.java.openjdk\ctsym-java6\jars\ctsym-java6-1.6.0_24.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/net/java/openjdk/ctsym-java6/1.6.0_24/ctsym-java6-1.6.0_24.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun" name="rt-jdk1.5">
+			<revision name="1.5.0_22" status="release" pubdate="20121109104221" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="0">
+				<metadata-artifact status="no" details="" size="2265" time="0" location="C:\Users\S0111\.ivy2\cache\com.sun\rt-jdk1.5\ivy-1.5.0_22.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/com/sun/rt-jdk1.5/1.5.0_22/rt-jdk1.5-1.5.0_22.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="codegen" rev="1.5.0_22" rev-constraint-default="1.5.0_22" rev-constraint-dynamic="1.5.0_22" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="rt-jdk1.5" type="jar" ext="jar" status="no" details="" size="40232487" time="0" location="C:\Users\S0111\.ivy2\cache\com.sun\rt-jdk1.5\jars\rt-jdk1.5-1.5.0_22.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/com/sun/rt-jdk1.5/1.5.0_22/rt-jdk1.5-1.5.0_22.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

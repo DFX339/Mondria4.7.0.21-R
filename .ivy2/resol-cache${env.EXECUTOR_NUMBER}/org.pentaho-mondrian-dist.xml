@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.pentaho"
+		module="mondrian"
+		revision="4.7.0.21-185"
+		conf="dist"
+		confs="codegen, default, default-jdk1.4, sources, dist, test"
+		date="20190603102228"/>
+	<dependencies>
+		<module organisation="hsqldb" name="hsqldb">
+			<revision name="1.8.0.10" status="release" pubdate="20140805000212" resolver="pentaho-mvn" artresolver="pentaho-mvn" homepage="http://hsqldb.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="0">
+				<license name="HSQLDB License" url="http://hsqldb.org/web/hsqlLicense.html"/>
+				<metadata-artifact status="no" details="" size="2369" time="0" location="C:\Users\S0111\.ivy2\cache\hsqldb\hsqldb\ivy-1.8.0.10.xml" searched="false" origin-is-local="false" origin-location="http://ivy-nexus.pentaho.org/content/groups/omni/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.pom"/>
+				<caller organisation="org.pentaho" name="mondrian" conf="dist" rev="1.8.0.10" rev-constraint-default="1.8.0.10" rev-constraint-dynamic="1.8.0.10" callerrev="4.7.0.21-185"/>
+				<artifacts>
+					<artifact name="hsqldb" type="jar" ext="jar" status="no" details="" size="706710" time="0" location="C:\Users\S0111\.ivy2\cache\hsqldb\hsqldb\jars\hsqldb-1.8.0.10.jar">
+						<origin-location is-local="false" location="http://ivy-nexus.pentaho.org/content/groups/omni/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
