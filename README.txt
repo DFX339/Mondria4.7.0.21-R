@@ -12,3 +12,6 @@ The version is described in VERSION.txt.
 Home page: http://mondrian.pentaho.com
 Project home: http://sourceforge.net/projects/mondrian/
 Email: jhyde@pentaho.com
+
+
+.ivy2 是mondrian使用ant编译时用到的jar包，将此目录替换 C:\Users\xxx 目录下的 .ivy2 目录
